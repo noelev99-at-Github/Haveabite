@@ -1,0 +1,81 @@
+.navbar .navbar-nav .nav-link:hover {
+    background-color: rgb(13, 37, 7);
+    color: #ffffff;
+  }  
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
+}
+
+.webLogo {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-top: -3%;
+    padding: 5px;
+    max-width:250px;
+    max-height:250px;
+}
+
+.navbar a {
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+  #leaf{
+    position: absolute;
+    width: 80px;
+    height: 250px;
+    bottom: 35%;
+    left: 0;
+}
+
+#bump{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 100px;
+}
+
+#splash {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+}
+
+#round{
+    position: absolute;
+    bottom: 60%;
+    right: 0;
+    width: 30px;
+    height: 150px;
+}
+
+.borderz{
+  border-radius: 30px;
+  background-color: #facb5d;
+
+}

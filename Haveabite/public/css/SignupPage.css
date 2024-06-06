@@ -1,0 +1,104 @@
+body{
+    background-image: url(/Images/backgroundimage.png);
+    background-size: cover;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 250px;
+}
+
+input[type=text], input[type=email]{
+    border-radius: 25px;
+    width: 300px;
+    padding: 14px 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login{
+    border-radius: 25px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px, 0;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+}
+  
+button:hover {
+    opacity: 0.8;
+    color: black;
+}
+
+.libraryName{
+    font-family: Papyrus, monospace;
+    font-size: 75px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.signUp{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration-line: none;
+    margin: auto;
+}
+
+.signUpButton{
+    margin: 2%;
+    text-align: center;
+}
+
+.box {
+    margin: auto;
+    margin-top: 2%;
+    width: 400px;
+    height: 90%;
+    border: 5px solid rgb(250, 203, 93);  
+    background-color: rgb(250, 203, 93);
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #0c0101;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.signupdetails{
+    text-align: center;
+    margin-right: 190px;
+    margin-top: 20px;
+}
+
+.createanaccount{
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Monaco, monospace;
+}
+
+label{
+    font-family: Monaco, monospace;
+    font-size: 20px;
+}
+
+.heads{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+ 
